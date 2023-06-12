@@ -1,0 +1,48 @@
+package com.lamdatest.driver;
+
+import org.openqa.selenium.WebDriver;
+
+public final class DriverManager {
+	/**
+	 * Private constructor to avoid external instantiation
+	 */
+	private DriverManager() {
+	}
+
+	public static ThreadLocal<WebDriver> drLocal = new ThreadLocal<WebDriver>();
+
+	/**
+	 * Returns the thread safe {@link org.openqa.selenium.WebDriver} instance
+	 * fetched from ThreadLocal variable.
+	 * 
+	 * @author Pavan Kumar T 
+	 * @return {@link org.openqa.selenium.WebDriver} instance
+	 */
+	public static WebDriver getDriver() {
+		return drLocal.get();
+	}
+
+	/**
+	 * Set the WebDriver instance to thread local variable
+	 * 
+	 * @author Pavan Kumar T 
+	 * @param driverref {@link org.openqa.selenium.WebDriver} instance that needs to
+	 *                  saved from Thread safety issues.
+	 */
+	public static void setDriver(WebDriver driverref) {
+		drLocal.set(driverref);
+	}
+
+	/**
+	 * Calling remove method on Threadlocal variable ensures to set the default
+	 * value to Threadlocal variable. It is much safer than assigning null value to
+	 * ThreadLocal variable.
+	 * 
+	 * @author Pavan Kumar T 
+	 */
+	public static void unload() {
+		drLocal.remove();
+	}
+
+
+}

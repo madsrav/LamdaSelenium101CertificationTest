@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="LamdaTestSuite" parallel="methods" >
+
+  <test  name="Chrome_Windows10_Test">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="version" value="88.0"/>
+  <parameter name="platform" value="WIN10"/>
+    <classes>
+      <class name="com.lamdatest.tests.LamdaAssesmentTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="Edge_Mac_Test">
+  <parameter name="browser" value="edge"/>
+  <parameter name="version" value="87.0"/>
+  <parameter name="platform" value="macOS Sierra"/>
+    <classes>
+      <class name="com.lamdatest.tests.LamdaAssesmentTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="Firefox_Windows7_Test">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="version" value="82.0"/>
+  <parameter name="platform" value="WIN7"/>
+    <classes>
+      <class name="com.lamdatest.tests.LamdaAssesmentTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="IE_Windows10_Test">
+  <parameter name="browser" value="ie"/>
+  <parameter name="version" value="11.0"/>
+  <parameter name="platform" value="WIN10"/>
+    <classes>
+      <class name="com.lamdatest.tests.LamdaAssesmentTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

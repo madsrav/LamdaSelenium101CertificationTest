@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="methods" name="Failed suite [LamdaTestSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="ie"/>
+  <parameter name="version" value="11.0"/>
+  <parameter name="platform" value="WIN10"/>
+  <test parallel="methods" name="IE_Windows10_Test(failed)">
+    <parameter name="browser" value="ie"/>
+    <parameter name="version" value="11.0"/>
+    <parameter name="platform" value="WIN10"/>
+    <classes>
+      <class name="com.lamdatest.tests.LamdaAssesmentTest">
+        <methods>
+          <include name="Scenario_2Test"/>
+          <include name="Scenario_3Test"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.lamdatest.tests.LamdaAssesmentTest -->
+    </classes>
+  </test> <!-- IE_Windows10_Test(failed) -->
+</suite> <!-- Failed suite [LamdaTestSuite] -->

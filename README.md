@@ -35,7 +35,7 @@ mvn test -Dsurefire.suiteXmlFiles=testng.xml
 
 These commands will update the package manager, install OpenJDK 11, set the default Java version, build the project skipping the tests, and then run the tests using the TestNG XML configuration file specified in testng.xml.
 
-3. Once the tests are executed on the LambdaTest Cloud Selenium Grid, you will receive test IDs or          	execution details as output or logs.
+3. Once the tests are executed on the LambdaTest Cloud Selenium Grid, I will receive test IDs or           	execution details as output or logs.
 
-4. Record the final Test ID(s) and any relevant information from the test execution on LambdaTes
+4. Recorded the final Test ID(s) and any relevant information from the test execution on LambdaTest.
 	

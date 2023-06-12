@@ -31,8 +31,8 @@ public final class DriverFactory {
 				capabilities.setCapability("browserName", browser);
 		        capabilities.setCapability("version", version);
 		        capabilities.setCapability("platform", platform); // If this cap isn't specified, it will just get the any available one
-		        capabilities.setCapability("build", "LambdaTestAssesment_2");
-		        capabilities.setCapability("name", "LambdaTest_Assesment_Part_2");
+		        capabilities.setCapability("build", "LambdaTestAssesment_Part2");
+		        capabilities.setCapability("name", "LambdaTest_Assesment_2");
 		        capabilities.setCapability("network", true);
 		        capabilities.setCapability("video", true);
 		        capabilities.setCapability("visual", true);

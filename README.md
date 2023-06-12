@@ -27,10 +27,8 @@ To run the tests on the LambdaTest Cloud Selenium Grid:
 
 2. Execute the following commands to set up the environment and run the tests:
 
-sudo apt-get update
-sudo apt-get install -y openjdk-11-jdk
-sudo update-java-alternatives --set java-1.11.0-openjdk-amd64
-mvn clean install -DskipTests
+tasks:
+  - init: mvn install -DskipTests=false
 mvn test -Dsurefire.suiteXmlFiles=testng.xml
 
 These commands will update the package manager, install OpenJDK 11, set the default Java version, build the project skipping the tests, and then run the tests using the TestNG XML configuration file specified in testng.xml.

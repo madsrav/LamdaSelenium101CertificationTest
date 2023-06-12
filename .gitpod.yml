@@ -1,8 +1,10 @@
-image: gitpod/workspace-full:latest
+image: maven:3.8.3-openjdk-11
+
+before_tasks:
+  - sudo apt-get update
+  - sudo apt-get install -y openjdk-11-jdk
+  - sudo update-java-alternatives --set java-1.11.0-openjdk-amd64
+  - mvn clean install -DskipTests
 
 tasks:
-  - name: Install dependencies
-    command: mvn install
-
-  - name: Run tests
-    command: mvn test
+  - mvn test -Dsurefire.suiteXmlFiles=testng.xml

@@ -30,8 +30,8 @@ public final class DriverFactory {
 				capabilities.setCapability("browserName", browser);
 		        capabilities.setCapability("version", version);
 		        capabilities.setCapability("platform", platform);
-		        capabilities.setCapability("build", "LambdaTestAssesment_Part2");
-		        capabilities.setCapability("name", "LambdaTest_Assesment_2");
+		        capabilities.setCapability("build", "LambdaTestAssesment");
+		        capabilities.setCapability("name", "LambdaTest_Assesment_1");
 		        capabilities.setCapability("network", true);
 		        capabilities.setCapability("video", true);
 		        capabilities.setCapability("visual", true);

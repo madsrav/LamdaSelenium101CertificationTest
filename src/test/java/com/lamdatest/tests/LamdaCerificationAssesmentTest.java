@@ -13,10 +13,10 @@ import com.lamdatest.pages.SimpleFormDemoPage;
 import com.lamdatest.pages.SliderDemoPage;
 import com.lamdatest.utils.WebDriverUtil;
 
-public class LamdaAssesmentTest extends BaseTest {
+public class LamdaCerificationAssesmentTest extends BaseTest {
 
 	@Test
-	public void Scenario_1Test() {
+	public void Scenario_SimpleformdemoTest() {
 		SeleniumPlaygroundPage seleniumPlaygroundPage = new SeleniumPlaygroundPage();
 		SimpleFormDemoPage simpleFormDemoPage = new SimpleFormDemoPage();
 		
@@ -36,7 +36,7 @@ public class LamdaAssesmentTest extends BaseTest {
 	
 	
 	@Test
-	public void Scenario_2Test() throws InterruptedException {
+	public void Scenario_DragandDropTest() throws InterruptedException {
 		SeleniumPlaygroundPage seleniumPlaygroundPage = new SeleniumPlaygroundPage();
 		SliderDemoPage sliderDemoPage=new SliderDemoPage();
 		
@@ -54,7 +54,7 @@ public class LamdaAssesmentTest extends BaseTest {
 	}
 	
 	@Test
-	public void Scenario_3Test() throws InterruptedException {
+	public void Scenario_FormSubmitTest() throws InterruptedException {
 		SeleniumPlaygroundPage seleniumPlaygroundPage = new SeleniumPlaygroundPage();
 		FormDemoPage formDemoPage=new FormDemoPage();
 		

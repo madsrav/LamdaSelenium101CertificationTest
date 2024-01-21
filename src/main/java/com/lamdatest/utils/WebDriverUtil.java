@@ -7,7 +7,7 @@ import com.lamdatest.driver.DriverManager;
 public class WebDriverUtil {
 	
 	/**
-	 * This method will scroll down for 500 units
+	 * This method will scroll down for 500 units too
 	 * @param driver
 	 */
 	public static void scrollAction(int yValue)

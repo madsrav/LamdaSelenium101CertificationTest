@@ -28,6 +28,4 @@ public class SimpleFormDemoPage {
 		return resultMessage;
 	}
 	
-	
-
 }

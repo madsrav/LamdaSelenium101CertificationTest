@@ -15,7 +15,7 @@ public final class DriverManager {
 	 * Returns the thread safe {@link org.openqa.selenium.WebDriver} instance
 	 * fetched from ThreadLocal variable.
 	 * 
-	 * @author Pavan Kumar T 
+	 * @author Sravan Kumar M
 	 * @return {@link org.openqa.selenium.WebDriver} instance
 	 */
 	public static WebDriver getDriver() {
@@ -25,7 +25,7 @@ public final class DriverManager {
 	/**
 	 * Set the WebDriver instance to thread local variable
 	 * 
-	 * @author Pavan Kumar T 
+	 * @author Sravan Kumar M 
 	 * @param driverref {@link org.openqa.selenium.WebDriver} instance that needs to
 	 *                  saved from Thread safety issues.
 	 */
@@ -38,7 +38,7 @@ public final class DriverManager {
 	 * value to Threadlocal variable. It is much safer than assigning null value to
 	 * ThreadLocal variable.
 	 * 
-	 * @author Pavan Kumar T 
+	 * @author Sravan Kumar M
 	 */
 	public static void unload() {
 		drLocal.remove();

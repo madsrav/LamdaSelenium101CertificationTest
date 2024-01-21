@@ -2,13 +2,13 @@
 <testng-results total="12" passed="10" failed="2" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Successfully drag and dropped to 95 Value]]>
-    </line>
-    <line>
       <![CDATA[Successfully navigated to simple-form-demo page]]>
     </line>
     <line>
       <![CDATA[Value Entered Welcome to LambdaTest is successfully reflected as same in your message section]]>
+    </line>
+    <line>
+      <![CDATA[Successfully drag and dropped to 95 Value]]>
     </line>
     <line>
       <![CDATA[Thanks for contacting us, we will get back to you shortly. is Displayed]]>
@@ -20,22 +20,22 @@
       <![CDATA[Value Entered Welcome to LambdaTest is successfully reflected as same in your message section]]>
     </line>
     <line>
+      <![CDATA[Successfully drag and dropped to 95 Value]]>
+    </line>
+    <line>
       <![CDATA[Thanks for contacting us, we will get back to you shortly. is Displayed]]>
     </line>
     <line>
       <![CDATA[Successfully drag and dropped to 95 Value]]>
+    </line>
+    <line>
+      <![CDATA[Thanks for contacting us, we will get back to you shortly. is Displayed]]>
     </line>
     <line>
       <![CDATA[Successfully navigated to simple-form-demo page]]>
     </line>
     <line>
       <![CDATA[Value Entered Welcome to LambdaTest is successfully reflected as same in your message section]]>
-    </line>
-    <line>
-      <![CDATA[Thanks for contacting us, we will get back to you shortly. is Displayed]]>
-    </line>
-    <line>
-      <![CDATA[Successfully drag and dropped to 95 Value]]>
     </line>
     <line>
       <![CDATA[Successfully navigated to simple-form-demo page]]>
@@ -44,12 +44,12 @@
       <![CDATA[Value Entered Welcome to LambdaTest is successfully reflected as same in your message section]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-06-12T10:05:28Z" name="LamdaTestSuite" finished-at="2023-06-12T10:08:56Z" duration-ms="208221">
+  <suite started-at="2024-01-21T14:52:59Z" name="LamdaTestSuite" finished-at="2024-01-21T14:56:01Z" duration-ms="181583">
     <groups>
     </groups>
-    <test started-at="2023-06-12T10:05:28Z" name="Chrome_Windows10_Test" finished-at="2023-06-12T10:06:51Z" duration-ms="83529">
-      <class name="com.lamdatest.tests.LamdaAssesmentTest">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@7ce69770]" started-at="2023-06-12T15:35:28Z" name="setUp" finished-at="2023-06-12T15:35:52Z" duration-ms="24207" status="PASS">
+    <test started-at="2024-01-21T14:52:59Z" name="Chrome_Windows10_Test" finished-at="2024-01-21T14:54:10Z" duration-ms="70759">
+      <class name="com.lamdatest.tests.LamdaCerificationAssesmentTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@14f9390f]" started-at="2024-01-21T20:22:59Z" name="setUp" finished-at="2024-01-21T20:23:21Z" duration-ms="21411" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -70,7 +70,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@7ce69770]" started-at="2023-06-12T15:35:28Z" name="setUp" finished-at="2023-06-12T15:36:34Z" duration-ms="66509" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@14f9390f]" started-at="2024-01-21T20:22:59Z" name="setUp" finished-at="2024-01-21T20:23:57Z" duration-ms="57849" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -91,7 +91,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@7ce69770]" started-at="2023-06-12T15:35:28Z" name="setUp" finished-at="2023-06-12T15:36:10Z" duration-ms="42688" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@14f9390f]" started-at="2024-01-21T20:22:59Z" name="setUp" finished-at="2024-01-21T20:23:37Z" duration-ms="37456" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -112,18 +112,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Scenario_2Test()[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@7ce69770]" started-at="2023-06-12T15:35:52Z" name="Scenario_2Test" finished-at="2023-06-12T15:35:55Z" duration-ms="3238" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Successfully drag and dropped to 95 Value]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Scenario_2Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@7ce69770]" started-at="2023-06-12T15:35:55Z" name="tearDown" finished-at="2023-06-12T15:35:55Z" duration-ms="298" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="Scenario_1Test()[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@7ce69770]" started-at="2023-06-12T15:36:10Z" name="Scenario_1Test" finished-at="2023-06-12T15:36:15Z" duration-ms="4552" status="PASS">
+        <test-method signature="Scenario_SimpleformdemoTest()[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@14f9390f]" started-at="2024-01-21T20:23:21Z" name="Scenario_SimpleformdemoTest" finished-at="2024-01-21T20:23:25Z" duration-ms="3625" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Successfully navigated to simple-form-demo page]]>
@@ -132,27 +121,38 @@
               <![CDATA[Value Entered Welcome to LambdaTest is successfully reflected as same in your message section]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Scenario_1Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@7ce69770]" started-at="2023-06-12T15:36:15Z" name="tearDown" finished-at="2023-06-12T15:36:15Z" duration-ms="469" status="PASS">
+        </test-method> <!-- Scenario_SimpleformdemoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@14f9390f]" started-at="2024-01-21T20:23:25Z" name="tearDown" finished-at="2024-01-21T20:23:25Z" duration-ms="321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="Scenario_3Test()[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@7ce69770]" started-at="2023-06-12T15:36:34Z" name="Scenario_3Test" finished-at="2023-06-12T15:36:51Z" duration-ms="16629" status="PASS">
+        <test-method signature="Scenario_DragandDropTest()[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@14f9390f]" started-at="2024-01-21T20:23:37Z" name="Scenario_DragandDropTest" finished-at="2024-01-21T20:23:39Z" duration-ms="2540" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully drag and dropped to 95 Value]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Scenario_DragandDropTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@14f9390f]" started-at="2024-01-21T20:23:39Z" name="tearDown" finished-at="2024-01-21T20:23:40Z" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Scenario_FormSubmitTest()[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@14f9390f]" started-at="2024-01-21T20:23:57Z" name="Scenario_FormSubmitTest" finished-at="2024-01-21T20:24:10Z" duration-ms="12498" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Thanks for contacting us, we will get back to you shortly. is Displayed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Scenario_3Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@7ce69770]" started-at="2023-06-12T15:36:51Z" name="tearDown" finished-at="2023-06-12T15:36:51Z" duration-ms="377" status="PASS">
+        </test-method> <!-- Scenario_FormSubmitTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@14f9390f]" started-at="2024-01-21T20:24:10Z" name="tearDown" finished-at="2024-01-21T20:24:10Z" duration-ms="275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.lamdatest.tests.LamdaAssesmentTest -->
+      </class> <!-- com.lamdatest.tests.LamdaCerificationAssesmentTest -->
     </test> <!-- Chrome_Windows10_Test -->
-    <test started-at="2023-06-12T10:06:51Z" name="Edge_Mac_Test" finished-at="2023-06-12T10:07:35Z" duration-ms="43290">
-      <class name="com.lamdatest.tests.LamdaAssesmentTest">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@6d60fe40]" started-at="2023-06-12T15:36:51Z" name="setUp" finished-at="2023-06-12T15:37:06Z" duration-ms="14729" status="PASS">
+    <test started-at="2024-01-21T14:54:10Z" name="Edge_Mac_Test" finished-at="2024-01-21T14:54:53Z" duration-ms="42602">
+      <class name="com.lamdatest.tests.LamdaCerificationAssesmentTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@436c81a3]" started-at="2024-01-21T20:24:10Z" name="setUp" finished-at="2024-01-21T20:24:26Z" duration-ms="15696" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -173,7 +173,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@6d60fe40]" started-at="2023-06-12T15:36:51Z" name="setUp" finished-at="2023-06-12T15:37:12Z" duration-ms="20775" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@436c81a3]" started-at="2024-01-21T20:24:10Z" name="setUp" finished-at="2024-01-21T20:24:41Z" duration-ms="30444" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -194,7 +194,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@6d60fe40]" started-at="2023-06-12T15:36:51Z" name="setUp" finished-at="2023-06-12T15:37:31Z" duration-ms="39510" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@436c81a3]" started-at="2024-01-21T20:24:10Z" name="setUp" finished-at="2024-01-21T20:24:24Z" duration-ms="13462" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -215,14 +215,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Scenario_3Test()[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@6d60fe40]" started-at="2023-06-12T15:37:06Z" name="Scenario_3Test" finished-at="2023-06-12T15:37:20Z" duration-ms="14399" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Thanks for contacting us, we will get back to you shortly. is Displayed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Scenario_3Test -->
-        <test-method signature="Scenario_1Test()[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@6d60fe40]" started-at="2023-06-12T15:37:12Z" name="Scenario_1Test" finished-at="2023-06-12T15:37:16Z" duration-ms="3924" status="PASS">
+        <test-method signature="Scenario_SimpleformdemoTest()[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@436c81a3]" started-at="2024-01-21T20:24:24Z" name="Scenario_SimpleformdemoTest" finished-at="2024-01-21T20:24:27Z" duration-ms="3139" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Successfully navigated to simple-form-demo page]]>
@@ -231,31 +224,38 @@
               <![CDATA[Value Entered Welcome to LambdaTest is successfully reflected as same in your message section]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Scenario_1Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@6d60fe40]" started-at="2023-06-12T15:37:16Z" name="tearDown" finished-at="2023-06-12T15:37:16Z" duration-ms="282" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@6d60fe40]" started-at="2023-06-12T15:37:20Z" name="tearDown" finished-at="2023-06-12T15:37:21Z" duration-ms="299" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="Scenario_2Test()[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@6d60fe40]" started-at="2023-06-12T15:37:31Z" name="Scenario_2Test" finished-at="2023-06-12T15:37:34Z" duration-ms="3294" status="PASS">
+        </test-method> <!-- Scenario_SimpleformdemoTest -->
+        <test-method signature="Scenario_DragandDropTest()[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@436c81a3]" started-at="2024-01-21T20:24:26Z" name="Scenario_DragandDropTest" finished-at="2024-01-21T20:24:29Z" duration-ms="2631" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Successfully drag and dropped to 95 Value]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Scenario_2Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@6d60fe40]" started-at="2023-06-12T15:37:34Z" name="tearDown" finished-at="2023-06-12T15:37:35Z" duration-ms="486" status="PASS">
+        </test-method> <!-- Scenario_DragandDropTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@436c81a3]" started-at="2024-01-21T20:24:27Z" name="tearDown" finished-at="2024-01-21T20:24:27Z" duration-ms="290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.lamdatest.tests.LamdaAssesmentTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@436c81a3]" started-at="2024-01-21T20:24:29Z" name="tearDown" finished-at="2024-01-21T20:24:29Z" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Scenario_FormSubmitTest()[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@436c81a3]" started-at="2024-01-21T20:24:41Z" name="Scenario_FormSubmitTest" finished-at="2024-01-21T20:24:53Z" duration-ms="11873" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Thanks for contacting us, we will get back to you shortly. is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Scenario_FormSubmitTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@436c81a3]" started-at="2024-01-21T20:24:53Z" name="tearDown" finished-at="2024-01-21T20:24:53Z" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lamdatest.tests.LamdaCerificationAssesmentTest -->
     </test> <!-- Edge_Mac_Test -->
-    <test started-at="2023-06-12T10:07:35Z" name="Firefox_Windows7_Test" finished-at="2023-06-12T10:08:12Z" duration-ms="37076">
-      <class name="com.lamdatest.tests.LamdaAssesmentTest">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@302c971f]" started-at="2023-06-12T15:37:35Z" name="setUp" finished-at="2023-06-12T15:38:09Z" duration-ms="33946" status="PASS">
+    <test started-at="2024-01-21T14:54:53Z" name="Firefox_Windows7_Test" finished-at="2024-01-21T14:55:27Z" duration-ms="34321">
+      <class name="com.lamdatest.tests.LamdaCerificationAssesmentTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@56c4278e]" started-at="2024-01-21T20:24:53Z" name="setUp" finished-at="2024-01-21T20:25:06Z" duration-ms="12707" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -276,7 +276,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@302c971f]" started-at="2023-06-12T15:37:35Z" name="setUp" finished-at="2023-06-12T15:37:48Z" duration-ms="13567" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@56c4278e]" started-at="2024-01-21T20:24:53Z" name="setUp" finished-at="2024-01-21T20:25:24Z" duration-ms="31141" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -297,7 +297,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@302c971f]" started-at="2023-06-12T15:37:35Z" name="setUp" finished-at="2023-06-12T15:37:43Z" duration-ms="8904" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@56c4278e]" started-at="2024-01-21T20:24:53Z" name="setUp" finished-at="2024-01-21T20:25:11Z" duration-ms="18447" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -318,14 +318,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Scenario_3Test()[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@302c971f]" started-at="2023-06-12T15:37:43Z" name="Scenario_3Test" finished-at="2023-06-12T15:37:56Z" duration-ms="12936" status="PASS">
+        <test-method signature="Scenario_DragandDropTest()[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@56c4278e]" started-at="2024-01-21T20:25:06Z" name="Scenario_DragandDropTest" finished-at="2024-01-21T20:25:08Z" duration-ms="1941" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully drag and dropped to 95 Value]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Scenario_DragandDropTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@56c4278e]" started-at="2024-01-21T20:25:08Z" name="tearDown" finished-at="2024-01-21T20:25:08Z" duration-ms="590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Scenario_FormSubmitTest()[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@56c4278e]" started-at="2024-01-21T20:25:11Z" name="Scenario_FormSubmitTest" finished-at="2024-01-21T20:25:22Z" duration-ms="10874" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Thanks for contacting us, we will get back to you shortly. is Displayed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Scenario_3Test -->
-        <test-method signature="Scenario_1Test()[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@302c971f]" started-at="2023-06-12T15:37:48Z" name="Scenario_1Test" finished-at="2023-06-12T15:37:52Z" duration-ms="3805" status="PASS">
+        </test-method> <!-- Scenario_FormSubmitTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@56c4278e]" started-at="2024-01-21T20:25:22Z" name="tearDown" finished-at="2024-01-21T20:25:23Z" duration-ms="609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Scenario_SimpleformdemoTest()[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@56c4278e]" started-at="2024-01-21T20:25:24Z" name="Scenario_SimpleformdemoTest" finished-at="2024-01-21T20:25:27Z" duration-ms="2577" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Successfully navigated to simple-form-demo page]]>
@@ -334,94 +349,128 @@
               <![CDATA[Value Entered Welcome to LambdaTest is successfully reflected as same in your message section]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Scenario_1Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@302c971f]" started-at="2023-06-12T15:37:52Z" name="tearDown" finished-at="2023-06-12T15:37:53Z" duration-ms="592" status="PASS">
+        </test-method> <!-- Scenario_SimpleformdemoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@56c4278e]" started-at="2024-01-21T20:25:27Z" name="tearDown" finished-at="2024-01-21T20:25:27Z" duration-ms="585" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@302c971f]" started-at="2023-06-12T15:37:56Z" name="tearDown" finished-at="2023-06-12T15:37:57Z" duration-ms="692" status="PASS">
+      </class> <!-- com.lamdatest.tests.LamdaCerificationAssesmentTest -->
+    </test> <!-- Firefox_Windows7_Test -->
+    <test started-at="2024-01-21T14:55:27Z" name="IE_Windows10_Test" finished-at="2024-01-21T14:56:01Z" duration-ms="33624">
+      <class name="com.lamdatest.tests.LamdaCerificationAssesmentTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@6f19ac19]" started-at="2024-01-21T20:25:27Z" name="setUp" finished-at="2024-01-21T20:25:58Z" duration-ms="30488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WIN10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@6f19ac19]" started-at="2024-01-21T20:25:27Z" name="setUp" finished-at="2024-01-21T20:25:48Z" duration-ms="20947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WIN10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@6f19ac19]" started-at="2024-01-21T20:25:27Z" name="setUp" finished-at="2024-01-21T20:25:36Z" duration-ms="8310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WIN10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Scenario_FormSubmitTest()[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@6f19ac19]" started-at="2024-01-21T20:25:36Z" name="Scenario_FormSubmitTest" finished-at="2024-01-21T20:25:39Z" duration-ms="2882" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.lamdatest.tests.LamdaCerificationAssesmentTest.Scenario_FormSubmitTest(LamdaCerificationAssesmentTest.java:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario_FormSubmitTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@6f19ac19]" started-at="2024-01-21T20:25:39Z" name="tearDown" finished-at="2024-01-21T20:25:39Z" duration-ms="266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="Scenario_2Test()[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@302c971f]" started-at="2023-06-12T15:38:09Z" name="Scenario_2Test" finished-at="2023-06-12T15:38:11Z" duration-ms="2454" status="PASS">
+        <test-method signature="Scenario_SimpleformdemoTest()[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@6f19ac19]" started-at="2024-01-21T20:25:48Z" name="Scenario_SimpleformdemoTest" finished-at="2024-01-21T20:25:52Z" duration-ms="3841" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Successfully drag and dropped to 95 Value]]>
+              <![CDATA[Successfully navigated to simple-form-demo page]]>
+            </line>
+            <line>
+              <![CDATA[Value Entered Welcome to LambdaTest is successfully reflected as same in your message section]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Scenario_2Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@302c971f]" started-at="2023-06-12T15:38:11Z" name="tearDown" finished-at="2023-06-12T15:38:12Z" duration-ms="676" status="PASS">
+        </test-method> <!-- Scenario_SimpleformdemoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@6f19ac19]" started-at="2024-01-21T20:25:52Z" name="tearDown" finished-at="2024-01-21T20:25:52Z" duration-ms="229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.lamdatest.tests.LamdaAssesmentTest -->
-    </test> <!-- Firefox_Windows7_Test -->
-    <test started-at="2023-06-12T10:08:12Z" name="IE_Windows10_Test" finished-at="2023-06-12T10:08:56Z" duration-ms="44264">
-      <class name="com.lamdatest.tests.LamdaAssesmentTest">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@548a24a]" started-at="2023-06-12T15:38:12Z" name="setUp" finished-at="2023-06-12T15:38:35Z" duration-ms="23003" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ie]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[11.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[WIN10]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@548a24a]" started-at="2023-06-12T15:38:12Z" name="setUp" finished-at="2023-06-12T15:38:51Z" duration-ms="39383" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ie]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[11.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[WIN10]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@548a24a]" started-at="2023-06-12T15:38:12Z" name="setUp" finished-at="2023-06-12T15:38:26Z" duration-ms="14432" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ie]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[11.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[WIN10]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Scenario_2Test()[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@548a24a]" started-at="2023-06-12T15:38:26Z" name="Scenario_2Test" finished-at="2023-06-12T15:38:31Z" duration-ms="5258" status="FAIL">
+        <test-method signature="Scenario_DragandDropTest()[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@6f19ac19]" started-at="2024-01-21T20:25:58Z" name="Scenario_DragandDropTest" finished-at="2024-01-21T20:26:01Z" duration-ms="2903" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [95] but found [51]]]>
@@ -433,80 +482,31 @@
 	at org.testng.Assert.assertEquals(Assert.java:125)
 	at org.testng.Assert.assertEquals(Assert.java:178)
 	at org.testng.Assert.assertEquals(Assert.java:188)
-	at com.lamdatest.tests.LamdaAssesmentTest.Scenario_2Test(LamdaAssesmentTest.java:50)
+	at com.lamdatest.tests.LamdaCerificationAssesmentTest.Scenario_DragandDropTest(LamdaCerificationAssesmentTest.java:50)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Scenario_2Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@548a24a]" started-at="2023-06-12T15:38:31Z" name="tearDown" finished-at="2023-06-12T15:38:32Z" duration-ms="454" status="PASS">
+        </test-method> <!-- Scenario_DragandDropTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lamdatest.tests.LamdaCerificationAssesmentTest@6f19ac19]" started-at="2024-01-21T20:26:01Z" name="tearDown" finished-at="2024-01-21T20:26:01Z" duration-ms="221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="Scenario_3Test()[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@548a24a]" started-at="2023-06-12T15:38:35Z" name="Scenario_3Test" finished-at="2023-06-12T15:38:39Z" duration-ms="4642" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at com.lamdatest.tests.LamdaAssesmentTest.Scenario_3Test(LamdaAssesmentTest.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Scenario_3Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@548a24a]" started-at="2023-06-12T15:38:39Z" name="tearDown" finished-at="2023-06-12T15:38:40Z" duration-ms="209" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="Scenario_1Test()[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@548a24a]" started-at="2023-06-12T15:38:51Z" name="Scenario_1Test" finished-at="2023-06-12T15:38:56Z" duration-ms="4645" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Successfully navigated to simple-form-demo page]]>
-            </line>
-            <line>
-              <![CDATA[Value Entered Welcome to LambdaTest is successfully reflected as same in your message section]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Scenario_1Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lamdatest.tests.LamdaAssesmentTest@548a24a]" started-at="2023-06-12T15:38:56Z" name="tearDown" finished-at="2023-06-12T15:38:56Z" duration-ms="236" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.lamdatest.tests.LamdaAssesmentTest -->
+      </class> <!-- com.lamdatest.tests.LamdaCerificationAssesmentTest -->
     </test> <!-- IE_Windows10_Test -->
   </suite> <!-- LamdaTestSuite -->
 </testng-results>

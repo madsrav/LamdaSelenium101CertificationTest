@@ -35,8 +35,8 @@ public class PropertyFileUtil {
 	/**
 	 * Receives the {@link com.lamdatest.enums.ConfigProperties},converts to lower case , return the corresponding value
 	 * for the key from the HashMap
-	 * @author Pavan Kumar T
-	 * 11-06-2023
+	 * @author Sravan Kumar M
+	 * 21-01-2024
 	 * @param key To be fetched from property file
 	 * @return corresponding value for the requested key
 	 */

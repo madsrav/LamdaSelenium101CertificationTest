@@ -26,11 +26,5 @@ public class SeleniumPlaygroundPage extends Basepage{
 
 	public WebElement getLinkInputForm() {
 		return linkInputForm;
-	}
-	
-	
-	
-	
-	
-	
+	}	
 }

@@ -7,7 +7,7 @@
   <parameter name="version" value="88.0"/>
   <parameter name="platform" value="WIN10"/>
     <classes>
-      <class name="com.lamdatest.tests.LamdaAssesmentTest"/>
+      <class name="com.lamdatest.tests.LamdaCerificationAssesmentTest"/>
     </classes>
   </test> <!-- Test -->
   
@@ -16,7 +16,7 @@
   <parameter name="version" value="87.0"/>
   <parameter name="platform" value="macOS Sierra"/>
     <classes>
-      <class name="com.lamdatest.tests.LamdaAssesmentTest"/>
+      <class name="com.lamdatest.tests.LamdaCerificationAssesmentTest"/>
     </classes>
   </test> <!-- Test -->
   
@@ -25,7 +25,7 @@
   <parameter name="version" value="82.0"/>
   <parameter name="platform" value="WIN7"/>
     <classes>
-      <class name="com.lamdatest.tests.LamdaAssesmentTest"/>
+      <class name="com.lamdatest.tests.LamdaCerificationAssesmentTest"/>
     </classes>
   </test> <!-- Test -->
   
@@ -34,7 +34,7 @@
   <parameter name="version" value="11.0"/>
   <parameter name="platform" value="WIN10"/>
     <classes>
-      <class name="com.lamdatest.tests.LamdaAssesmentTest"/>
+      <class name="com.lamdatest.tests.LamdaCerificationAssesmentTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

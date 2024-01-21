@@ -94,19 +94,19 @@ public class FormDemoPage {
 	}
 
 	public void enterDetails() {
-		textBoxName.sendKeys("LamdaTest");
-		textBoxEmail.sendKeys("lamdatest@gmail.com");
-		textBoxPassword.sendKeys("lamda@123");
+		textBoxName.sendKeys("LamdaTestAdmin");
+		textBoxEmail.sendKeys("lamdatest123@gmail.com");
+		textBoxPassword.sendKeys("lamda@4238");
 		textBoxCompany.sendKeys("Lamda");
 		textBoxWebsite.sendKeys("lamdaTest.co.in");
 		
 		Select select=new Select(dropdownCountry);
 		select.selectByVisibleText("India");
-		textBoxCity.sendKeys("Hyderabad");
-		textBoxAdress1.sendKeys("Hyderabad,Telangana");
-		textBoxAdress2.sendKeys("Hyderabad,Telangana");
-		textBoxState.sendKeys("Telangana");
-		textBoxZipcode.sendKeys("500062");
+		textBoxCity.sendKeys("Tamilnadu");
+		textBoxAdress1.sendKeys("Tamilnadu,Chennai");
+		textBoxAdress2.sendKeys("Tamilnadu,Chennai");
+		textBoxState.sendKeys("Chennai");
+		textBoxZipcode.sendKeys("600012");
 	}
 
 }

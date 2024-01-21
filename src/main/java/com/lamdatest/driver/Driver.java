@@ -35,7 +35,7 @@ public class Driver {
 	 * Terminates the browser instance. Sets the threadlocal to default value, i.e
 	 * null.
 	 * 
-	 * @author Pavan Kumar T
+	 * @author Sravan Kumar M
 	 */
 	public static void quitDriver() {
 		if (Objects.nonNull(DriverManager.getDriver()))// driver!=null

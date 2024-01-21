@@ -20,10 +20,10 @@ public final class ExplicitWaitFactory {
 
 	/**
 	 * 
-	 * @author Pavan Kumar T
+	 * @author Sravan Kumar M
 	 * @param waitStrategy Strategy to be applied to find a web element
 	 *                     {@link com.lamdatest.enums.WaitingStrategy}
-	 * @param by           By locator of the webelement
+	 * @param by           By locator of the web Element
 	 * @return web element Locates and return the web element
 	 */
 	public static WebElement performExplicitWait(WaitingStrategy waitStrategy, By by) {

@@ -9,10 +9,10 @@
     <parameter name="version" value="11.0"/>
     <parameter name="platform" value="WIN10"/>
     <classes>
-      <class name="com.lamdatest.tests.LamdaAssesmentTest">
+      <class name="com.lamdatest.tests.LamdaCerificationAssesmentTest">
         <methods>
-          <include name="Scenario_2Test"/>
-          <include name="Scenario_3Test"/>
+          <include name="Scenario_FormSubmitTest"/>
+          <include name="Scenario_DragandDropTest"/>
           <include name="setUp"/>
           <include name="setUp"/>
           <include name="setUp"/>
@@ -22,7 +22,7 @@
           <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.lamdatest.tests.LamdaAssesmentTest -->
+      </class> <!-- com.lamdatest.tests.LamdaCerificationAssesmentTest -->
     </classes>
   </test> <!-- IE_Windows10_Test(failed) -->
 </suite> <!-- Failed suite [LamdaTestSuite] -->
